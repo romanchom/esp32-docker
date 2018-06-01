@@ -1,0 +1,1 @@
+docker run -it --rm --device=/dev/ttyUSB0 -v esp:/home/esp/projects esp
