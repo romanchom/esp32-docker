@@ -8,7 +8,7 @@ RUN mkdir -p /home/esp && \
 WORKDIR /home/esp
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends gcc git curl wget make libncurses-dev flex bison gperf python python-serial
+    apt-get install -y gcc git curl wget make libncurses-dev flex bison gperf python python-serial
 
 USER esp
 
